@@ -10,3 +10,4 @@ spec:
     - ./components/acm-v2.component.yaml
     - ./components/keypair.component.yaml
     - ./components/ecs-v2.component.yaml
+    - ./components/service-discovery.component.yaml

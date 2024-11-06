@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-discovery
+  description: cfhighlander service-discovery component
+  labels:
+    cfhighlander/component: service-discovery
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-service-discovery
+    github.com/project-slug: theonestack/hl-component-service-discovery
+    cfhighlander/latest-version: 0.1.1
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander
