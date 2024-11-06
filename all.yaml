@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ./components/cfhighlander-system.yaml
-    - ./components/v2-vpc.component.yaml
+    - ./components/vpc-v2.component.yaml
