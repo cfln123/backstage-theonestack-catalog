@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vpc-v2
-  description: cfhighlander vpc-v2 component
+  name: acm-v2
+  description: cfhighlander acm-v2 component
   labels:
-    cfhighlander/component: vpc-v2
+    cfhighlander/component: acm-v2
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-vpc-v2
-    github.com/project-slug: theonestack/hl-component-vpc-v2
-    cfhighlander/latest-version: '0.10.5'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-acm-v2
+    github.com/project-slug: theonestack/hl-component-acm-v2
+    cfhighlander/latest-version: '0.1.1'
   tags:
     - cfhighlander
   links:
