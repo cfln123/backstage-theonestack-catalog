@@ -8,4 +8,4 @@ spec:
     - ./components/cfhighlander.system.yaml
     - ./components/vpc-v2.component.yaml
     - ./components/acm-v2.component.yaml
-    - ./components/keypair-component.yaml
+    - ./components/keypair.component.yaml
