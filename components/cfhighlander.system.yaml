@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cfhiglander
+  description: cfhighlander component library
+spec:
+  owner: base2-randd
+  domain: infrastructure
+  type: library

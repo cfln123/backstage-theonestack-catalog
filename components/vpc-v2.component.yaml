@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vpc-v2
+  description: cfhighlander vpc-v2 component
+  labels:
+    cfhighlander/component: vpc-v2
+  annotations:
+    github.com/project-slug: theonestack/hl-component-vpc-v2
+    cfhighlander/latest-version: '0.10.5'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander
