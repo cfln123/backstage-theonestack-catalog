@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ecs-v2
+  description: cfhighlander ecs-v2 component
+  labels:
+    cfhighlander/component: ecs-v2
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-ecs-v2
+    github.com/project-slug: theonestack/hl-component-ecs-v2
+    cfhighlander/latest-version: 0.2.4
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander
