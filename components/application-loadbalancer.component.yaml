@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: application-loadbalancer
+  description: cfhighlander application-loadbalancer component
+  labels:
+    cfhighlander/component: application-loadbalancer
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-application-loadbalancer
+    github.com/project-slug: theonestack/hl-component-application-loadbalancer
+    cfhighlander/latest-version: 0.5.1
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander
