@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eventbridge-rule
+  description: cfhighlander eventbridge-rule component
+  labels:
+    cfhighlander/component: eventbridge-rule
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-eventbridge-rule
+    github.com/project-slug: theonestack/hl-component-eventbridge-rule
+    cfhighlander/latest-version: 0.1.0
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander
