@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: network-loadbalancer
+  description: cfhighlander network-loadbalancer component
+  labels:
+    cfhighlander/component: network-loadbalancer
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-network-loadbalancer
+    github.com/project-slug: theonestack/hl-component-network-loadbalancer
+    cfhighlander/latest-version: '0.2.3'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

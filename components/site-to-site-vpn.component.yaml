@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: site-to-site-vpn
+  description: cfhighlander site-to-site-vpn component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: site-to-site-vpn
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-site-to-site-vpn
+    github.com/project-slug: theonestack/hl-component-site-to-site-vpn
+    cfhighlander/latest-version: '0.1.1'
   tags:
     - cfhighlander
   links:

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: iam-access-keys
+  description: cfhighlander iam-access-keys component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: iam-access-keys
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-iam-access-keys
+    github.com/project-slug: theonestack/hl-component-iam-access-keys
+    cfhighlander/latest-version: '0.3.1'
   tags:
     - cfhighlander
   links:

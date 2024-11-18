@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: rds-mssql
+  description: cfhighlander rds-mssql component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: rds-mssql
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-rds-mssql
+    github.com/project-slug: theonestack/hl-component-rds-mssql
+    cfhighlander/latest-version: '0.2.5'
   tags:
     - cfhighlander
   links:

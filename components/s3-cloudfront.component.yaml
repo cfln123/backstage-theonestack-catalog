@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: s3-cloudfront
+  description: cfhighlander s3-cloudfront component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: s3-cloudfront
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-s3-cloudfront
+    github.com/project-slug: theonestack/hl-component-s3-cloudfront
+    cfhighlander/latest-version: '1.4.3'
   tags:
     - cfhighlander
   links:

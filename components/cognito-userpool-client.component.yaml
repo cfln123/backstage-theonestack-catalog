@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: eventbridge-rule
-  description: cfhighlander eventbridge-rule component
+  name: cognito-userpool-client
+  description: cfhighlander cognito-userpool-client component
   labels:
-    cfhighlander/component: eventbridge-rule
+    cfhighlander/component: cognito-userpool-client
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-eventbridge-rule
-    github.com/project-slug: theonestack/hl-component-eventbridge-rule
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-cognito-userpool-client
+    github.com/project-slug: theonestack/hl-component-cognito-userpool-client
     cfhighlander/latest-version: '0.1.0'
   tags:
     - cfhighlander

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: glue-job
+  description: cfhighlander glue-job component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: glue-job
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-glue-job
+    github.com/project-slug: theonestack/hl-component-glue-job
+    cfhighlander/latest-version: '0.1.3'
   tags:
     - cfhighlander
   links:

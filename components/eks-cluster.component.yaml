@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: eks-cluster
+  description: cfhighlander eks-cluster component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: eks-cluster
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-eks-cluster
+    github.com/project-slug: theonestack/hl-component-eks-cluster
+    cfhighlander/latest-version: '0.6.5'
   tags:
     - cfhighlander
   links:

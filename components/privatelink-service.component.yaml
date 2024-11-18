@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: privatelink-service
+  description: cfhighlander privatelink-service component
+  labels:
+    cfhighlander/component: privatelink-service
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-privatelink-service
+    github.com/project-slug: theonestack/hl-component-privatelink-service
+    cfhighlander/latest-version: '1.1.2'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

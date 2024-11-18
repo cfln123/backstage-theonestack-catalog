@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: acm
+  description: cfhighlander acm component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: acm
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-acm
+    github.com/project-slug: theonestack/hl-component-acm
+    cfhighlander/latest-version: '1.4.4'
   tags:
     - cfhighlander
   links:

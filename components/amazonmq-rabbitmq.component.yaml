@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: amazonmq-rabbitmq
+  description: cfhighlander amazonmq-rabbitmq component
+  labels:
+    cfhighlander/component: amazonmq-rabbitmq
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-amazonmq-rabbitmq
+    github.com/project-slug: theonestack/hl-component-amazonmq-rabbitmq
+    cfhighlander/latest-version: '0.4.3'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

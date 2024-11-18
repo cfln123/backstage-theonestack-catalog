@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: route53-recordset
+  description: cfhighlander route53-recordset component
+  labels:
+    cfhighlander/component: route53-recordset
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-route53-recordset
+    github.com/project-slug: theonestack/hl-component-route53-recordset
+    cfhighlander/latest-version: '0.1.2'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: rds-proxy
+  description: cfhighlander rds-proxy component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: rds-proxy
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-rds-proxy
+    github.com/project-slug: theonestack/hl-component-rds-proxy
+    cfhighlander/latest-version: '0.1.1'
   tags:
     - cfhighlander
   links:

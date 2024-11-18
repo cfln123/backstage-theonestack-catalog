@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: elasticache-redis
+  description: cfhighlander elasticache-redis component
+  labels:
+    cfhighlander/component: elasticache-redis
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-elasticache-redis
+    github.com/project-slug: theonestack/hl-component-elasticache-redis
+    cfhighlander/latest-version: '3.2.0'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

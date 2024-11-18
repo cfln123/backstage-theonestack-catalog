@@ -1,0 +1,24 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hl-component-
+  description: cfhighlander hl-component- component
+  labels:
+    cfhighlander/component: hl-component-
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-hl-component-
+    github.com/project-slug: theonestack/hl-component-hl-component-
+    cfhighlander/latest-version: '2.3.2'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

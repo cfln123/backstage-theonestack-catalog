@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: redshift
+  description: cfhighlander redshift component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: redshift
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-redshift
+    github.com/project-slug: theonestack/hl-component-redshift
+    cfhighlander/latest-version: '0.1.9'
   tags:
     - cfhighlander
   links:

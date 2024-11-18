@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: spot-fleet
+  description: cfhighlander spot-fleet component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: spot-fleet
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-spot-fleet
+    github.com/project-slug: theonestack/hl-component-spot-fleet
+    cfhighlander/latest-version: '0.2.1'
   tags:
     - cfhighlander
   links:

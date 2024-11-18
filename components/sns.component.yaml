@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: sns
+  description: cfhighlander sns component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: sns
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-sns
+    github.com/project-slug: theonestack/hl-component-sns
+    cfhighlander/latest-version: '1.3.0'
   tags:
     - cfhighlander
   links:

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: aurora-mysql
+  description: cfhighlander aurora-mysql component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: aurora-mysql
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-aurora-mysql
+    github.com/project-slug: theonestack/hl-component-aurora-mysql
+    cfhighlander/latest-version: '3.6.3'
   tags:
     - cfhighlander
   links:

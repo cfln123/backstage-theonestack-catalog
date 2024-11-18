@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: ecs-runtask
+  description: cfhighlander ecs-runtask component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: ecs-runtask
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-ecs-runtask
+    github.com/project-slug: theonestack/hl-component-ecs-runtask
+    cfhighlander/latest-version: '0.2.3'
   tags:
     - cfhighlander
   links:

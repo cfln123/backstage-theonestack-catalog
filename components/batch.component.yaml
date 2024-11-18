@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: batch
+  description: cfhighlander batch component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: batch
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-batch
+    github.com/project-slug: theonestack/hl-component-batch
+    cfhighlander/latest-version: '0.1.0'
   tags:
     - cfhighlander
   links:

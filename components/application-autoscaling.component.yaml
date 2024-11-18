@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: application-autoscaling
+  description: cfhighlander application-autoscaling component
+  labels:
+    cfhighlander/component: application-autoscaling
+  annotations:
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-application-autoscaling
+    github.com/project-slug: theonestack/hl-component-application-autoscaling
+    cfhighlander/latest-version: '0.1.7'
+  tags:
+    - cfhighlander
+  links:
+    - url: https://github.com/theonestack
+      title: CfHighlander Github Org
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: library
+  lifecycle: production
+  owner: base2-randd
+  system: cfhighlander

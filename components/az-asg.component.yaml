@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: az-asg
+  description: cfhighlander az-asg component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: az-asg
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-az-asg
+    github.com/project-slug: theonestack/hl-component-az-asg
+    cfhighlander/latest-version: '0.1.1'
   tags:
     - cfhighlander
   links:

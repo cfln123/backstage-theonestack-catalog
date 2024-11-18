@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: fargate
+  description: cfhighlander fargate component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: fargate
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-fargate
+    github.com/project-slug: theonestack/hl-component-fargate
     cfhighlander/latest-version: '1.2.1'
   tags:
     - cfhighlander

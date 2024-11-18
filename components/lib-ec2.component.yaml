@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: lib-ec2
+  description: cfhighlander lib-ec2 component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: lib-ec2
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-lib-ec2
+    github.com/project-slug: theonestack/hl-component-lib-ec2
+    cfhighlander/latest-version: '0.2.1'
   tags:
     - cfhighlander
   links:

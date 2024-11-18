@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: ecs
+  description: cfhighlander ecs component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: ecs
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-ecs
+    github.com/project-slug: theonestack/hl-component-ecs
+    cfhighlander/latest-version: '2.3.0'
   tags:
     - cfhighlander
   links:

@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: eventbridge-rule
-  description: cfhighlander eventbridge-rule component
+  name: alb-maintenance-window
+  description: cfhighlander alb-maintenance-window component
   labels:
-    cfhighlander/component: eventbridge-rule
+    cfhighlander/component: alb-maintenance-window
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-eventbridge-rule
-    github.com/project-slug: theonestack/hl-component-eventbridge-rule
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-alb-maintenance-window
+    github.com/project-slug: theonestack/hl-component-alb-maintenance-window
     cfhighlander/latest-version: '0.1.0'
   tags:
     - cfhighlander

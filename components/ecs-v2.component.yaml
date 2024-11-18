@@ -8,7 +8,7 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/theonestack/hl-component-ecs-v2
     github.com/project-slug: theonestack/hl-component-ecs-v2
-    cfhighlander/latest-version: 0.2.4
+    cfhighlander/latest-version: '0.2.4'
   tags:
     - cfhighlander
   links:

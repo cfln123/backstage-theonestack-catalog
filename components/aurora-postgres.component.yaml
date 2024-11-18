@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: keypair
-  description: cfhighlander keypair component
+  name: aurora-postgres
+  description: cfhighlander aurora-postgres component
   labels:
-    cfhighlander/component: keypair
+    cfhighlander/component: aurora-postgres
   annotations:
-    backstage.io/source-location: url:https://github.com/theonestack/hl-component-keypair
-    github.com/project-slug: theonestack/hl-component-keypair
-    cfhighlander/latest-version: '1.2.1'
+    backstage.io/source-location: url:https://github.com/theonestack/hl-component-aurora-postgres
+    github.com/project-slug: theonestack/hl-component-aurora-postgres
+    cfhighlander/latest-version: '2.4.0'
   tags:
     - cfhighlander
   links:
